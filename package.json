@@ -1,0 +1,23 @@
+{
+  "name": "live_streaming",
+  "version": "1.0.0",
+  "description": "landing page",
+  "source": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moonsh1nee/Live_streaming.git"
+  },
+  "author": "Moonsh1ne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moonsh1nee/Live_streaming/issues"
+  },
+  "homepage": "https://github.com/Moonsh1nee/Live_streaming#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "sass": "^1.75.0"
+  }
+}
