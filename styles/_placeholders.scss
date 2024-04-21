@@ -1,0 +1,19 @@
+@use 'variables' as v;
+
+%hover-black {
+    transition: color .2s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        color: v.$color-black;
+    }
+}
+
+%hover-black-icon {
+    transition: fill .3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        fill: v.$color-black;
+    }
+}
